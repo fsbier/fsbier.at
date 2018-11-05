@@ -7,6 +7,7 @@ COPY certs/apache-selfsigned.crt /etc/ssl/certs/apache-selfsigned.crt
 COPY certs/dhparam.pem /etc/ssl/certs/dhparam.pem
 COPY configs/ssl-params.conf /etc/apache2/conf-available/ssl-params.conf
 COPY configs/default-ssl.conf /etc/apache2/sites-available/default-ssl.conf
+COPY configs/000-default.conf /etc/apache2/sites-available/000-default.conf
 
 RUN a2enmod ssl
 RUN a2enmod headers

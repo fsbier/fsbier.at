@@ -24,7 +24,7 @@ sudo openssl dhparam -out certs/dhparam.pem 2048
 docker build -t fsbier .
 
 # Run the docker container
-docker run -p 443:443 fsbier
+docker run -p 80:80 -p 443:443 fsbier
 ```
 
 You can now access the development website at localhost.
