@@ -16,11 +16,15 @@ You will need an up and running [git](https://git-scm.com/) and [docker](https:/
 # Clone the git repo
 https://github.com/HigHendHd/fsbier.git
 
+# Create your SSL Certificates
+sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout certs/private/apache-selfsigned.key -out certs/apache-selfsigned.crt
+sudo openssl dhparam -out certs/dhparam.pem 2048
+
 # Build the docker container
 docker build -t fsbier .
 
 # Run the docker container
-docker run -p 80:80 fsbier
+docker run -p 443:443 fsbier
 ```
 
 You can now access the development website at localhost.
