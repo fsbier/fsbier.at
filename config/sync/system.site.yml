@@ -1,0 +1,14 @@
+uuid: 08ac2707-7a64-4565-98b1-06130a9e7a7f
+name: 'Fachschaft Bier'
+mail: kontakt@fsbier.at
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /user/login
+admin_compact_mode: false
+weight_select_max: 100
+langcode: de
+default_langcode: de
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
