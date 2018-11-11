@@ -31,10 +31,10 @@ docker-compose up -d mysql apache2
 # run composer
 docker-compose exec --user=laradock workspace composer install
 
-# now you can import an existing database (laradock/data/mysql) and "sites/default/settings.php"
+# now you can import an existing database (laradock/data/mysql) and "web/sites/default/settings.php"
 
 # or just open localhost in your browser and create a new database
-# connection parameters can be found in "web/sites/settings.local.php" at the bottom
+# connection parameters can be found in "web/sites/default/settings.local.php" at the bottom
 
 # importing drupal config (after git pull)
 docker-compose exec workspace drush cim
