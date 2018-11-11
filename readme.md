@@ -26,7 +26,7 @@ mklink laradock/.env .env.docker-win
 cd laradock
 
 # Start the containers
-docker-compose up -d
+docker-compose up -d apache2 mysql
 ```
 
 You can now access the development website at localhost.
