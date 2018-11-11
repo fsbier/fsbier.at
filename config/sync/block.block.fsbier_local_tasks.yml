@@ -1,0 +1,22 @@
+uuid: ab8c0aab-520b-459f-b94c-014511b47007
+langcode: de
+status: true
+dependencies:
+  theme:
+    - fsbier
+_core:
+  default_config_hash: c-06bbElRY5sKmglk74ppgTW93Et4-EJFyNiUZMb8JY
+id: fsbier_local_tasks
+theme: fsbier
+region: content
+weight: -20
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Reiter
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

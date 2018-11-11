@@ -1,0 +1,22 @@
+uuid: d9f84efb-c8d9-4f92-aa0e-13937a3dd413
+langcode: de
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - fsbier
+_core:
+  default_config_hash: 4QlSnWBcxxKMIFRM8sbu_MjSkcp3NjGgnVrc-lynQHI
+id: fsbier_login
+theme: fsbier
+region: header
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: Benutzeranmeldung
+  provider: user
+  label_display: visible
+visibility: {  }

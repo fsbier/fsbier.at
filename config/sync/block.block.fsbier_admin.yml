@@ -1,0 +1,26 @@
+uuid: 21acb673-2240-4d91-a699-b76f8dd8a903
+langcode: de
+status: true
+dependencies:
+  config:
+    - system.menu.admin
+  module:
+    - system
+  theme:
+    - fsbier
+_core:
+  default_config_hash: DWAB7HaAfAJerAmyT8B2K-6qxicu9n0PcKVpDr--N4c
+id: fsbier_admin
+theme: fsbier
+region: header
+weight: 1
+provider: null
+plugin: 'system_menu_block:admin'
+settings:
+  id: 'system_menu_block:admin'
+  label: Verwaltung
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

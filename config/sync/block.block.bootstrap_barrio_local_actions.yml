@@ -1,13 +1,13 @@
-uuid: 7e26f615-db7e-43a5-bdc5-376057630b59
+uuid: 7ca0c5ec-84c9-42df-9a05-8eef861ad8e9
 langcode: de
 status: true
 dependencies:
   theme:
-    - stark
+    - bootstrap_barrio
 _core:
   default_config_hash: PffmQ-ABSz5tFjWmVsR7NesunDnEivvopnJnBjl8KNE
-id: stark_local_actions
-theme: stark
+id: bootstrap_barrio_local_actions
+theme: bootstrap_barrio
 region: content
 weight: -10
 provider: null

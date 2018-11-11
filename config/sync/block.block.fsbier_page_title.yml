@@ -1,13 +1,13 @@
-uuid: ca8e6bcd-7c39-401e-8c69-694a48de1873
+uuid: 43226a68-0fdb-472c-8cdc-8b9739731770
 langcode: de
 status: true
 dependencies:
   theme:
-    - stark
+    - fsbier
 _core:
   default_config_hash: 8yptDf6WrXxeyevUz4nP5vfr7BtxQqCBMninhV2IJ1g
-id: stark_page_title
-theme: stark
+id: fsbier_page_title
+theme: fsbier
 region: content
 weight: -30
 provider: null

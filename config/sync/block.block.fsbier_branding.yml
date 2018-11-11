@@ -1,0 +1,25 @@
+uuid: 51e308cb-13f7-44c4-8d48-1e78f82de0b8
+langcode: de
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - fsbier
+_core:
+  default_config_hash: fRKXNB91UxDvEMkzCR8ZBsawfC6Fqbme2gtobei3gu4
+id: fsbier_branding
+theme: fsbier
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Branding der Website'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

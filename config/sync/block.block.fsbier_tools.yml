@@ -1,4 +1,4 @@
-uuid: 758ccd4f-9ecb-421c-8409-e2c6dcc7da7f
+uuid: e1abb54c-ff8e-4d87-8363-694408529d10
 langcode: de
 status: true
 dependencies:
@@ -7,12 +7,12 @@ dependencies:
   module:
     - system
   theme:
-    - stark
+    - fsbier
 _core:
   default_config_hash: xCOijLdB1-UgXxQ9a0D1_pd8vxNEhfMnxXZc8jYhHjs
-id: stark_tools
-theme: stark
-region: sidebar_first
+id: fsbier_tools
+theme: fsbier
+region: header
 weight: 0
 provider: null
 plugin: 'system_menu_block:tools'
