@@ -14,17 +14,33 @@ You will need an up and running [git](https://git-scm.com/) and [docker](https:/
 
 ```
 # Clone the git repo
-https://github.com/HigHendHd/fsbier.git
+git clone https://github.com/fsbier/fsbier.at.git
 
-# Create your SSL Certificates
-sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout certs/private/apache-selfsigned.key -out certs/apache-selfsigned.crt
-sudo openssl dhparam -out certs/dhparam.pem 2048
+# init submodule
+cd fsbier.at
+git submodule update --init --recursive
 
-# Build the docker container
-docker build -t fsbier .
+# link docker env file
+unix: ln -s .env.docker laradock/.env
+win: mklink laradock\.env .env.docker-win
 
-# Run the docker container
-docker run -p 80:80 -p 443:443 fsbier
+# Run the docker containers (be sure docker is running)(this can take up to 15min)
+cd laradock
+docker-compose up -d mysql apache2
+
+# run composer
+docker-compose exec --user=laradock workspace composer install
+
+# now you can import an existing database (laradock/data/mysql) and "sites/default/settings.php"
+
+# or just open localhost in your browser and create a new database
+# connection parameters can be found in "web/sites/settings.local.php" at the bottom
+
+# importing drupal config (after git pull)
+docker-compose exec workspace drush cim
+
+# exporting drupal config (to commit some changes)
+docker-compose exec workspace drush cex
 ```
 
 You can now access the development website at localhost.
