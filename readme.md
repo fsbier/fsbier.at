@@ -18,7 +18,7 @@ git clone git@github.com:fsbier/fsbier.at.git --recurse-submodules
 
 # Symlink Laradock env file
 # unix:
-ln -sf .env.docker-win laradock/.env
+ln -sf ../.env.docker-win laradock/.env
 # win:
 mklink laradock/.env .env.docker-win
 
