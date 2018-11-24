@@ -1,0 +1,22 @@
+uuid: 3157d4db-b401-4867-a287-46862643e58e
+langcode: de
+status: true
+dependencies:
+  config:
+    - node.type.event
+id: node.event.status
+field_name: status
+entity_type: node
+bundle: event
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: An
+  off_label: Aus
+field_type: boolean

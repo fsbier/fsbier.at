@@ -1,0 +1,22 @@
+uuid: 201695ba-7257-4539-b076-444712ddaac9
+langcode: de
+status: true
+dependencies:
+  config:
+    - media.type.img
+id: media.img.status
+field_name: status
+entity_type: media
+bundle: img
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: An
+  off_label: Aus
+field_type: boolean

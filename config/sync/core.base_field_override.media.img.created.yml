@@ -1,0 +1,18 @@
+uuid: ce48264d-d21b-40b1-84f9-66f61bfa497f
+langcode: de
+status: true
+dependencies:
+  config:
+    - media.type.img
+id: media.img.created
+field_name: created
+entity_type: media
+bundle: img
+label: 'Geschrieben am'
+description: 'Der Zeitpunkt, zu dem das Medium erstellt wurde.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\media\Entity\Media::getRequestTime'
+settings: {  }
+field_type: created

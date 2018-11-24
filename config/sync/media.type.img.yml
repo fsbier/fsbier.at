@@ -1,0 +1,14 @@
+uuid: 9229163d-59d6-4012-9407-0cc12ed82590
+langcode: de
+status: true
+dependencies: {  }
+id: img
+label: Bild
+description: ''
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image
+field_map:
+  name: name

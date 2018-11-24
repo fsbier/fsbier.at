@@ -1,0 +1,20 @@
+uuid: 8a9bdcef-f2b2-45fe-8ffa-5070c329f3a6
+langcode: de
+status: true
+dependencies:
+  config:
+    - media.type.img
+id: media.img.name
+field_name: name
+entity_type: media
+bundle: img
+label: Name
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

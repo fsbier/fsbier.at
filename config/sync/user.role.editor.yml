@@ -1,0 +1,26 @@
+uuid: c72c344e-6507-40c1-8b70-27007cb6c082
+langcode: de
+status: true
+dependencies: {  }
+id: editor
+label: Editor
+weight: 2
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access files overview'
+  - 'access toolbar'
+  - 'access user profiles'
+  - 'administer menu'
+  - 'administer url aliases'
+  - 'create event content'
+  - 'create url aliases'
+  - 'delete any event content'
+  - 'delete own event content'
+  - 'edit any event content'
+  - 'edit own event content'
+  - 'revert event revisions'
+  - 'translate interface'
+  - 'view event revisions'
+  - 'view own unpublished content'
+  - 'view the administration theme'

@@ -1,0 +1,18 @@
+uuid: 179e1d1e-4850-47e4-bede-18ae01293492
+langcode: de
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+id: comment.comment.changed
+field_name: changed
+entity_type: comment
+bundle: comment
+label: Geändert
+description: 'Der Zeitpunkt, zu dem der Kommentar zuletzt bearbeitet wurde.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

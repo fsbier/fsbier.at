@@ -1,0 +1,20 @@
+uuid: eae51f2d-d2c7-4119-9e16-8baddb332b25
+langcode: de
+status: true
+dependencies:
+  config:
+    - media.type.img
+id: media.img.uid
+field_name: uid
+entity_type: media
+bundle: img
+label: 'Geschrieben von'
+description: 'Die Benutzer-ID des Autors'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\media\Entity\Media::getCurrentUserId'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

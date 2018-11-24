@@ -1,0 +1,8 @@
+uuid: 38efe6a1-a76b-455f-a953-c71d68dc0a42
+langcode: de
+status: true
+dependencies: {  }
+id: comment
+label: Kommentar
+target_entity_type_id: node
+description: ''

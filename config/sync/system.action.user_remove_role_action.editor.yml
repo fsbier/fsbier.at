@@ -1,0 +1,14 @@
+uuid: a56b1027-db4f-4bdd-93a7-277e87e34687
+langcode: de
+status: true
+dependencies:
+  config:
+    - user.role.editor
+  module:
+    - user
+id: user_remove_role_action.editor
+label: 'Den ausgewählten Benutzern die Rolle Editor entziehen'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: editor

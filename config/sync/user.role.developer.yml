@@ -1,0 +1,45 @@
+uuid: f9436d43-4ea7-4d84-aa0c-bcd6edfcc43d
+langcode: de
+status: true
+dependencies: {  }
+id: developer
+label: Developer
+weight: 3
+is_admin: true
+permissions:
+  - 'access content overview'
+  - 'access devel information'
+  - 'access files overview'
+  - 'access site in maintenance mode'
+  - 'access site reports'
+  - 'access toolbar'
+  - 'access user profiles'
+  - 'administer account settings'
+  - 'administer blocks'
+  - 'administer content types'
+  - 'administer display modes'
+  - 'administer filters'
+  - 'administer languages'
+  - 'administer menu'
+  - 'administer modules'
+  - 'administer node display'
+  - 'administer node fields'
+  - 'administer node form display'
+  - 'administer nodes'
+  - 'administer permissions'
+  - 'administer site configuration'
+  - 'administer software updates'
+  - 'administer themes'
+  - 'administer url aliases'
+  - 'administer user display'
+  - 'administer user fields'
+  - 'administer user form display'
+  - 'administer users'
+  - 'administer views'
+  - 'bypass node access'
+  - 'create url aliases'
+  - 'execute php code'
+  - 'revert all revisions'
+  - 'translate interface'
+  - 'view all revisions'
+  - 'view the administration theme'

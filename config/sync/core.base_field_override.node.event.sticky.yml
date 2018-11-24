@@ -1,0 +1,22 @@
+uuid: 81ef54fc-cd88-428b-bafd-0fcfd69c5b7d
+langcode: de
+status: true
+dependencies:
+  config:
+    - node.type.event
+id: node.event.sticky
+field_name: sticky
+entity_type: node
+bundle: event
+label: 'Oben in Listen'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: An
+  off_label: Aus
+field_type: boolean

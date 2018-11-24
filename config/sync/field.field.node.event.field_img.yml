@@ -1,0 +1,29 @@
+uuid: 31b11630-a10a-4c89-9267-4e25369fae34
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_img
+    - media.type.img
+    - node.type.event
+id: node.event.field_img
+field_name: field_img
+entity_type: node
+bundle: event
+label: Bild
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      img: img
+    sort:
+      field: changed
+      direction: DESC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

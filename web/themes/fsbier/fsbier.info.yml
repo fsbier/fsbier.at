@@ -6,9 +6,9 @@ description: 'Basic structure for a Bootstrap Barrio SubTheme.'
 base theme: bootstrap_barrio
 
 libraries:
-  - bootstrap_barrio_subtheme/bootstrap_cdn
-  - bootstrap_barrio_subtheme/global-styling
-
+  - fsbier/global-styling
+libraries-override:
+  bootstrap_barrio/global-styling: false
 regions:
   top_header: 'Top Header'
   top_header_form: "Top Header Form"
@@ -34,7 +34,7 @@ regions:
   footer_fifth: 'Footer fifth'
 
 # Information added by Drupal.org packaging script on 2018-08-09
-version: '8.x-4.17'
+version: '8.x-1.0'
 core: '8.x'
-project: 'bootstrap_barrio'
+project: 'fsbier'
 datestamp: 1533828192
