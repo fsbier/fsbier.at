@@ -156,7 +156,7 @@ display:
             label: ''
           granularity: day
           plugin_id: datetime
-      title: Events
+      title: 'Nächstes Event'
       header: {  }
       footer: {  }
       empty: {  }

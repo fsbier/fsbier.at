@@ -1,10 +1,14 @@
 global-styling:
   version: VERSION
   js:
-    dist/main.js: {}
+    dist/main.js:
+      preprocess: false
   css:
     component:
-      dist/main.css: {}
+      https://use.typekit.net/php8mqs.css:
+        external: true
+      dist/main.css:
+        preprocess: false
   dependencies:
     - core/jquery
     - core/drupal

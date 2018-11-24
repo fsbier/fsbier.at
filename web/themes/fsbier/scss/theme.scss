@@ -1,12 +1,39 @@
 #page-wrapper {
-  display: flex;
+  @include media-breakpoint-up(sm) {
+    display: flex;
+  }
 }
 
 #header {
-  background: yellow;
+  background: $yellow;
+  color: $secondary;
+
+  a {
+    color: inherit;
+  }
 }
+
+// .nav-tabs .nav-link {
+//   color: $secondary;
+//   background: $primary;
+//   border-color: $secondary;
+//
+//   &:hover {
+//     color: theme-color-level(primary, -10);
+//   }
+// }
 
 img {
   max-width: 100%;
   height: auto;
+}
+
+.node--type-event {
+  .node__title a {
+    color: inherit;
+  }
+}
+
+.alert a {
+  color: inherit;
 }

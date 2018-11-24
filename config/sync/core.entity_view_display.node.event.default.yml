@@ -19,22 +19,22 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 2
+    weight: 3
     settings: {  }
     third_party_settings: {  }
     region: content
   field_date:
-    weight: 3
-    label: above
+    weight: 1
+    label: hidden
     settings:
-      format_type: medium
       timezone_override: ''
+      format_type: medium
     third_party_settings: {  }
     type: datetime_default
     region: content
   field_img:
     type: entity_reference_entity_view
-    weight: 1
+    weight: 2
     label: hidden
     settings:
       view_mode: default
