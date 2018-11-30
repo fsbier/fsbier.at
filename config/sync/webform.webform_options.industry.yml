@@ -1,0 +1,14 @@
+uuid: 6982cb44-41e8-45be-be05-f39d36f0086c
+langcode: de
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: s_SXZn2HbRGvTex-TLOCxz2oOnMYqtEZh8HD4_318QI
+id: industry
+label: Industrie
+category: Demographisch
+likert: false
+options: "Rechnungswesen/Finanzen: Rechnungswesen/Finanzen\nWerbung/Public Relations: Werbung/Public Relations\nLuft- und Raumfahrt: Luft- und Raumfahrt\nKunst/Unterhaltung/Verlag: Kunst/Unterhaltung/Verlag\nAutomobil: Automobil\nBankwesen/Hypothek: Bankwesen/Hypothek\nGeschäftsentwicklung: Geschäftsentwicklung\nGeschäftschance: Geschäftschance\nSachbearbeiter/Verwalter: Sachbearbeiter/Verwalter\nBauen/Einrichtungen: Bauen/Einrichtungen\nKonsumgüter: Konsumgüter\nKundenservice: Kundenservice\nBildung/Ausbildung: Bildung/Ausbildung\nEnergie/Versorger: Energie/Versorger\nIngenieurwesen: Ingenieurwesen\nRegierung/Militär: Regierung/Militär\nGesundheitswesen: Gesundheitswesen\nGastfreundschaft/Reisen: Gastfreundschaft/Reisen\nPersonalwesen: Personalwesen\nInstallation/Instandhaltung: Installation/Instandhaltung\nVersicherung: Versicherung\nInternet: Internet\nStrafverfolgung/Sicherheit: Strafverfolgung/Sicherheit\nRecht: Recht\nManagement/Führungskräfte: Management/Führungskräfte\nFertigung/Betrieb: Fertigung/Betrieb\nMarketing: Marketing\nGemeinnützig/Freiwillige: Gemeinnützig/Freiwillige\nPharmazeutik/Biotech: Pharmazeutik/Biotech\nProfessionelle Dienstleistungen: Professionelle Dienstleistungen\nImmobilien: Immobilien\nRestaurant/Lebensmittel-Service: Restaurant/Lebensmittel-Service\nEinzelhandel: Einzelhandel\nVertrieb: Vertrieb\nWissenschaft/Forschung: Wissenschaft/Forschung\nFacharbeit: Facharbeit\nTechnologie: Technologie\nTelekommunikation: Telekommunikation\nTransportation/Logistik: Transportation/Logistik\n"

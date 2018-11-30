@@ -1,0 +1,14 @@
+uuid: 4b6be897-f55a-475b-b11b-4e36584a1751
+langcode: de
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: swmYtBVUbwq7aHJWWDN7ODByuvur9vMkexDC9h64NZ8
+id: likert_quality
+label: 'Likert: Qualität'
+category: Likert
+likert: true
+options: "1: Sehr schlecht\r\n2: Schlecht\r\n3: Neutral \r\n4: Gut\r\n5: Sehr gut\n"

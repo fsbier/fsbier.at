@@ -1,0 +1,9 @@
+uuid: 224601b2-2dfa-42c8-8b82-9a53a6f28e03
+langcode: en
+status: true
+dependencies: {  }
+id: img_text
+label: 'Bild mit Text'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

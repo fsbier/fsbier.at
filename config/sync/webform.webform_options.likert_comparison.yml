@@ -1,0 +1,14 @@
+uuid: 1501f8c5-f7e9-4e9b-a294-1fb98fa753aa
+langcode: de
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: gZCLESMdXmEZxHqnQFx7a0rUefrkVuFzHSMnWe0qioM
+id: likert_comparison
+label: 'Likert: Vergleich'
+category: Likert
+likert: true
+options: "1: Stimme überhaupt nicht zu\r\n2: Stimme nicht zu\r\n3: Neutral\r\n4: Stimme zu\r\n5: Stimme stark zu\n"

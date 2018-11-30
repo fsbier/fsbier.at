@@ -1,0 +1,21 @@
+uuid: d2b02257-de41-4e6f-b0e8-1c0ee190d4ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_textblock
+    - paragraphs.paragraphs_type.text
+  module:
+    - text
+id: paragraph.text.field_textblock
+field_name: field_textblock
+entity_type: paragraph
+bundle: text
+label: Textblock
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

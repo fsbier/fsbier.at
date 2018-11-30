@@ -3,7 +3,7 @@ langcode: de
 status: true
 dependencies: {  }
 id: img
-label: Bild
+label: Image
 description: ''
 source: image
 queue_thumbnail_downloads: false

@@ -21,6 +21,7 @@ permissions:
   - 'edit own event content'
   - 'revert event revisions'
   - 'translate interface'
+  - 'use text format wysiwyg'
   - 'view event revisions'
   - 'view own unpublished content'
   - 'view the administration theme'

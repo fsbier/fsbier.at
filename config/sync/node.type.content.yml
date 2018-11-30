@@ -1,0 +1,18 @@
+uuid: ec5001f2-2743-46b9-b4ae-54f36607bae8
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Contentpage
+type: content
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

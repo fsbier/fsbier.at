@@ -1,0 +1,14 @@
+uuid: e7598136-fbb0-4845-a739-d0289b31a92e
+langcode: de
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: YNrKbYrWWjeubUUM8AsQ19KnX7cU1elACR14CZJHmdg
+id: days
+label: Tage
+category: 'Date and time'
+likert: false
+options: "Sonntag: Sonntag\nMontag: Montag\nDienstag: Dienstag\nMittwoch: Mittwoch\nDonnerstag: Donnerstag\nFreitag: Freitag\nSamstag: Samstag\n"

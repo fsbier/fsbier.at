@@ -1,0 +1,14 @@
+uuid: 005c2433-58de-4a57-9b42-48806717e8ff
+langcode: de
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: pIPgrAC82wE2GAk1mOv2UvMYv71YQe4VT8667QIYdvI
+id: ethnicity
+label: Volkszugehörigkeit
+category: Demographisch
+likert: false
+options: "Kaukasisch: Kaukasisch\n'Latino/Hispanisch': 'Latino/Hispanisch'\n'Nahöstlich': 'Nahöstlich'\nAfrikanisch: Afrikanisch\nKaribisch: Karibisch\n'Südasiatisch':'Südasiatisch'\n'Ostasiatisch': 'Ostasiatisch'\nGemischt: Gemischt\n"

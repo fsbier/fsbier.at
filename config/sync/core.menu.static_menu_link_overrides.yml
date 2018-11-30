@@ -1,4 +1,10 @@
-definitions: {  }
+definitions:
+  comment__admin:
+    weight: -62
+    menu_name: admin
+    parent: system.admin_content
+    enabled: true
+    expanded: false
 _core:
   default_config_hash: jdY7AU0tU-QsjmiOw3W8vwpYMb-By--_MSFgbqKUTYM
 langcode: de

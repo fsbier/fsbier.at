@@ -1,8 +1,8 @@
-#page-wrapper {
-  @include media-breakpoint-up(sm) {
-    display: flex;
-  }
-}
+// #page-wrapper {
+//   @include media-breakpoint-up(sm) {
+//     display: flex;
+//   }
+// }
 
 #header {
   background: $yellow;
@@ -12,16 +12,6 @@
     color: inherit;
   }
 }
-
-// .nav-tabs .nav-link {
-//   color: $secondary;
-//   background: $primary;
-//   border-color: $secondary;
-//
-//   &:hover {
-//     color: theme-color-level(primary, -10);
-//   }
-// }
 
 img {
   max-width: 100%;
@@ -37,3 +27,16 @@ img {
 .alert a {
   color: inherit;
 }
+
+// .paragraph--type--img-text {
+//   .field--name-field-bild {
+//     mar
+//   }
+//   @include media-breakpoint-up(md) {
+//     display: flex;
+//   }
+//
+//   > * {
+//     flex: 1 0 1px;
+//   }
+// }

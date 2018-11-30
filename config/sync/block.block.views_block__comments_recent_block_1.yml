@@ -1,0 +1,24 @@
+uuid: 87f35f54-7344-4b92-8f12-fcf773544c0f
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.comments_recent
+  module:
+    - views
+  theme:
+    - fsbier
+id: views_block__comments_recent_block_1
+theme: fsbier
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:comments_recent-block_1'
+settings:
+  id: 'views_block:comments_recent-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }
