@@ -12,7 +12,7 @@ mode: default
 content:
   field_bild:
     weight: 0
-    label: above
+    label: hidden
     settings:
       link: true
     third_party_settings: {  }

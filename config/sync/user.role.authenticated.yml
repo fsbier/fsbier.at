@@ -9,8 +9,13 @@ label: 'Angemeldeter Benutzer'
 weight: 1
 is_admin: false
 permissions:
+  - 'access comments'
   - 'access content'
   - 'cancel account'
   - 'change own username'
+  - 'edit own comments'
+  - 'edit own webform submission'
+  - 'post comments'
   - 'select account cancellation method'
   - 'view media'
+  - 'view own webform submission'

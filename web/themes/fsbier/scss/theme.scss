@@ -28,6 +28,23 @@ img {
   color: inherit;
 }
 
+.navbar-collapse {
+  justify-content: flex-end;
+
+  a {
+    text-transform: uppercase;
+    font-size: $font-size-lg;
+    font-family: $headings-font-family;
+    font-weight: 700;
+  }
+}
+
+.paragraph {
+  @include media-breakpoint-up(md) {
+    margin-bottom: $spacer * 2;
+  }
+}
+
 // .paragraph--type--img-text {
 //   .field--name-field-bild {
 //     mar

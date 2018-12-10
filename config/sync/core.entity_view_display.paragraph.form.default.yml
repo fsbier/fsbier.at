@@ -14,7 +14,7 @@ mode: default
 content:
   field_form:
     weight: 0
-    label: above
+    label: hidden
     settings:
       source_entity: true
     third_party_settings: {  }
