@@ -1,11 +1,11 @@
 uuid: 08ac2707-7a64-4565-98b1-06130a9e7a7f
-name: 'Fachschaft Bier'
-mail: kontakt@fsbier.at
+name: 'FS Bier'
+mail: bier@fsbier.at
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /events
+  front: /node/6
 admin_compact_mode: false
 weight_select_max: 100
 langcode: de
