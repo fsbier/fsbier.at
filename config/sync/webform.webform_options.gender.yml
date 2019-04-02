@@ -11,4 +11,4 @@ id: gender
 label: Geschlecht
 category: Demographisch
 likert: false
-options: "Male: Male\nFemale: Female\n"
+options: "Männlich: Männlich\r\nWeiblich: Weiblich\n"

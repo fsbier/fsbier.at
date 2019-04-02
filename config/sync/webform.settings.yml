@@ -34,7 +34,7 @@ settings:
   default_draft_loaded_message: 'Ein teilweise ausgefülltes Formular wurde gefunden. Bitte füllen Sie die restlichen Teile aus.'
   default_confirmation_message: 'Neue Eingabe zu [webform:title] hinzugefügt.'
   default_confirmation_back_label: 'Zurück zum Formular'
-  default_submission_label: '[webform_submission:submitted-to]: Submission #[webform_submission:serial]'
+  default_submission_label: '[webform_submission:submitted-to]: Eingabe #[webform_submission:serial]'
   default_submission_access_denied_message: 'Bitte melden Sie sich an, um auf die Webformulareingabe zugreifen zu können.'
   default_submission_exception_message: 'Die Webformular-Eingabe konnte nicht verarbeitet werden. Bitte den Administrator der Website kontaktieren.'
   default_submission_locked_message: 'Diese Webformular-Eingabe wurde gesperrt.'
@@ -99,6 +99,7 @@ export:
   excluded_exporters: {  }
 batch:
   default_batch_export_size: 500
+  default_batch_import_size: 100
   default_batch_update_size: 500
   default_batch_delete_size: 500
   default_batch_email_size: 500
@@ -180,6 +181,8 @@ contribute:
   account_type: user
   account_id: null
 langcode: de
-third_party_settings: {  }
+third_party_settings:
+  captcha:
+    replace_administration_mode: true
 _core:
   default_config_hash: vOXV9KclChKnE97mh4KCJVTDXxxRwh5PrtrhoXrJFWg

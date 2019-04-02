@@ -39,6 +39,20 @@ img {
   }
 }
 
+#page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#main-wrapper {
+  margin-bottom: $spacer * 2;
+}
+
+footer {
+  margin-top: auto;
+}
+
 .paragraph {
   @include media-breakpoint-up(md) {
     margin-bottom: $spacer * 2;

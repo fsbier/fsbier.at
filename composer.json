@@ -25,7 +25,7 @@
         "drupal/bootstrap_barrio": "^4.17",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.6.0",
-        "drupal/devel": "^1.2",
+        "drupal/devel": "^2.0",
         "drupal/google_analytics": "^2.3",
         "drupal/paragraphs": "^1.5",
         "drupal/webform": "^5.0@RC",

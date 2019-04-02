@@ -13,7 +13,7 @@ _core:
 id: webform_submissions
 label: Webformular-Eingaben
 module: views
-description: 'Default webform submissions views.'
+description: 'Standardansichten für die Anzeige von Webformular-Eingaben.'
 tag: ''
 base_table: webform_submission
 base_field: sid
@@ -599,7 +599,7 @@ display:
   embed_administer:
     display_plugin: embed
     id: embed_administer
-    display_title: 'Embed: Administer'
+    display_title: 'Eingebettet: Administrator'
     position: 2
     display_options:
       display_extenders: {  }
@@ -1426,7 +1426,7 @@ display:
   embed_default:
     display_plugin: embed
     id: embed_default
-    display_title: 'Embed: Default'
+    display_title: 'Eingebettet: Standard'
     position: 1
     display_options:
       display_extenders: {  }
@@ -1511,7 +1511,7 @@ display:
   embed_manage:
     display_plugin: embed
     id: embed_manage
-    display_title: 'Embed: Manage'
+    display_title: 'Eingebettet: Verwalten'
     position: 3
     display_options:
       display_extenders: {  }
@@ -2396,7 +2396,7 @@ display:
   embed_review:
     display_plugin: embed
     id: embed_review
-    display_title: 'Embed: Review'
+    display_title: 'Eingebettet: Überprüfung'
     position: 4
     display_options:
       display_extenders: {  }
